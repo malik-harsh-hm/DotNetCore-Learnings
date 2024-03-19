@@ -27,7 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OptionsPattern", "OptionsPa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Routing", "Routing\Routing.csproj", "{5E24FBE7-5DF3-4B3B-AF06-264F753B218E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling", "ExceptionHandling\ExceptionHandling.csproj", "{2D42E82A-950B-4A5D-BFB6-1988879DB851}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExceptionHandling", "ExceptionHandling\ExceptionHandling.csproj", "{2D42E82A-950B-4A5D-BFB6-1988879DB851}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalAPI", "MinimalAPI\MinimalAPI.csproj", "{B3EE21FA-605A-4032-B81D-B8A12C919773}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{2D42E82A-950B-4A5D-BFB6-1988879DB851}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D42E82A-950B-4A5D-BFB6-1988879DB851}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D42E82A-950B-4A5D-BFB6-1988879DB851}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3EE21FA-605A-4032-B81D-B8A12C919773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3EE21FA-605A-4032-B81D-B8A12C919773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3EE21FA-605A-4032-B81D-B8A12C919773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3EE21FA-605A-4032-B81D-B8A12C919773}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
