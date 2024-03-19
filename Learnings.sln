@@ -23,7 +23,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Caching_Response", "Respons
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Caching_Distributed", "DistributedCacheExample\Caching_Distributed.csproj", "{D74FE237-E8DF-4A59-BEBD-A2B92ECB5858}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptionsPattern", "OptionsPattern\OptionsPattern.csproj", "{723D9972-01CF-488D-9DA1-3B5B0D3AA222}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OptionsPattern", "OptionsPattern\OptionsPattern.csproj", "{723D9972-01CF-488D-9DA1-3B5B0D3AA222}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Routing", "Routing\Routing.csproj", "{5E24FBE7-5DF3-4B3B-AF06-264F753B218E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling", "ExceptionHandling\ExceptionHandling.csproj", "{2D42E82A-950B-4A5D-BFB6-1988879DB851}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +79,14 @@ Global
 		{723D9972-01CF-488D-9DA1-3B5B0D3AA222}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{723D9972-01CF-488D-9DA1-3B5B0D3AA222}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{723D9972-01CF-488D-9DA1-3B5B0D3AA222}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E24FBE7-5DF3-4B3B-AF06-264F753B218E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E24FBE7-5DF3-4B3B-AF06-264F753B218E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E24FBE7-5DF3-4B3B-AF06-264F753B218E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E24FBE7-5DF3-4B3B-AF06-264F753B218E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D42E82A-950B-4A5D-BFB6-1988879DB851}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D42E82A-950B-4A5D-BFB6-1988879DB851}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D42E82A-950B-4A5D-BFB6-1988879DB851}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D42E82A-950B-4A5D-BFB6-1988879DB851}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

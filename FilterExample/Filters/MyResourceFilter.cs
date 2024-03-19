@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc.Filters;
 
-namespace FilterExample.Filters
+namespace Filter_Example.Filters
 {
-    public class MyResourceFilter : Attribute, IResourceFilter, IResultFilter, IAuthorizationFilter, IExceptionFilter
+    public class MyResourceFilter : Attribute, IResourceFilter
     {
         public void OnResourceExecuting(ResourceExecutingContext context)
         {

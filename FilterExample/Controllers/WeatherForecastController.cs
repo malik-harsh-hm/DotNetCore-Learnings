@@ -1,4 +1,4 @@
-using FilterExample.Filters;
+using Filter_Example.Filters;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -6,8 +6,10 @@ namespace FilterExample.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    [MyResourceFilter]
-    [MyActionFilter]
+
+    [MyResourceFilter] // Resource Filter
+    [MyActionFilter] // Action Filter
+    [MyExceptionFilter] // Exception Filter
     public class WeatherForecastController : ControllerBase
     {
 
@@ -21,6 +23,7 @@ namespace FilterExample.Controllers
         [HttpGet(Name = "GetWeatherForecast")]
         public string Get()
         {
+            throw new BadRequestException("My Exception");
             return "Hello from GetWeatherForecast";
         }
     }

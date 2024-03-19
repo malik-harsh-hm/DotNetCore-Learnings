@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc.ActionConstraints;
 using Microsoft.AspNetCore.Mvc.Filters;
 
-namespace FilterExample.Filters
+namespace Filter_Example.Filters
 {
     public class MyActionFilter : Attribute, IActionFilter
     {
