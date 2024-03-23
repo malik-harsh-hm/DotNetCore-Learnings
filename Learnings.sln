@@ -29,7 +29,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Routing", "Routing\Routing.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExceptionHandling", "ExceptionHandling\ExceptionHandling.csproj", "{2D42E82A-950B-4A5D-BFB6-1988879DB851}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalAPI", "MinimalAPI\MinimalAPI.csproj", "{B3EE21FA-605A-4032-B81D-B8A12C919773}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimalAPI", "MinimalAPI\MinimalAPI.csproj", "{B3EE21FA-605A-4032-B81D-B8A12C919773}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASB-queue", "ASB-queue\ASB-queue.csproj", "{0FC1D53C-D9F6-4B95-BE9C-013E34BEF5A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASB-topic", "ASB-topic\ASB-topic.csproj", "{DA50EDAD-D416-4A1A-9CFC-CE54BF28175B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +97,14 @@ Global
 		{B3EE21FA-605A-4032-B81D-B8A12C919773}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3EE21FA-605A-4032-B81D-B8A12C919773}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3EE21FA-605A-4032-B81D-B8A12C919773}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FC1D53C-D9F6-4B95-BE9C-013E34BEF5A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FC1D53C-D9F6-4B95-BE9C-013E34BEF5A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FC1D53C-D9F6-4B95-BE9C-013E34BEF5A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FC1D53C-D9F6-4B95-BE9C-013E34BEF5A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA50EDAD-D416-4A1A-9CFC-CE54BF28175B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA50EDAD-D416-4A1A-9CFC-CE54BF28175B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA50EDAD-D416-4A1A-9CFC-CE54BF28175B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA50EDAD-D416-4A1A-9CFC-CE54BF28175B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
